@@ -128,6 +128,9 @@ Email.prototype.handle = function ( ctx, next ) {
     if (options.cc) {
       console.log('CC:      ', options.cc);
     }
+    if (options.replyTo) {
+      console.log('ReplyTo:      ', options.replyTo);
+    }
     if (options.bcc) {
       console.log('BCC:      ', options.bcc);
     }
